@@ -7,12 +7,11 @@ namespace TwoSum
     {
         public int[] TwoSum(int[] nums, int target)
         {
-            int[] complements = new int[nums.Length];
+            Object[] complements = new Object[nums.Length];
             int[] result = new int[2];
             int j = 0;
             for(int i=0;i< nums.Length; i++)
             {
-                //bool b = complements.Contains(nums[i]);
                 if (complements.Contains(nums[i]))
                 {
                     int index = Array.IndexOf(complements, nums[i]);
@@ -40,8 +39,8 @@ namespace TwoSum
         static void Main(string[] args)
         {
             Solution s = new Solution();
-            int[] numArray = new int[] { 1,2,4,4 };
-            int target = 8;
+            int[] numArray = new int[] { 0,4,3,0 };
+            int target = 0;
             s.print(s.TwoSum(numArray, target));
         }
     }
