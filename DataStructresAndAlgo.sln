@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestString", "LongestString\LongestString.csproj", "{8B89FB70-B758-4DA4-937A-96716427C04A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableImplementation", "HashTableImplementation\HashTableImplementation.csproj", "{6D52696B-4B42-4017-9ECF-958283A4B017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstRecurringCharacter", "FirstRecurringCharacter\FirstRecurringCharacter.csproj", "{303B0B86-30B6-4B5E-9497-57EB35FD821C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{8B89FB70-B758-4DA4-937A-96716427C04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B89FB70-B758-4DA4-937A-96716427C04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B89FB70-B758-4DA4-937A-96716427C04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D52696B-4B42-4017-9ECF-958283A4B017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D52696B-4B42-4017-9ECF-958283A4B017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D52696B-4B42-4017-9ECF-958283A4B017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D52696B-4B42-4017-9ECF-958283A4B017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303B0B86-30B6-4B5E-9497-57EB35FD821C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303B0B86-30B6-4B5E-9497-57EB35FD821C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303B0B86-30B6-4B5E-9497-57EB35FD821C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303B0B86-30B6-4B5E-9497-57EB35FD821C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
